@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57130/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "Llave_super_secreta": "205eedd0-40e2-460e-8856-9802f53f24d7",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "ApiSoftfinc": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "Llave_super_secreta": "ASDSADSAMDMSADKSAMDKASMDYADYGASDSAD",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:57131/"
+    }
+  }
+}
